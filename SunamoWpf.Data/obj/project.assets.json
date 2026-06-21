@@ -1936,11 +1936,11 @@
           }
         }
       },
-      "SunamoWpf.Converters/26.2.7.2": {
+      "SunamoWpf.Converters/26.6.21.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "SunamoWpf.Core": "26.2.7.2"
+          "SunamoWpf.Core": "26.6.21.1"
         },
         "compile": {
           "bin/placeholder/SunamoWpf.Converters.dll": {}
@@ -1952,7 +1952,7 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "SunamoWpf.Core/26.2.7.2": {
+      "SunamoWpf.Core/26.6.21.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -3567,12 +3567,12 @@
         "textcopy.nuspec"
       ]
     },
-    "SunamoWpf.Converters/26.2.7.2": {
+    "SunamoWpf.Converters/26.6.21.1": {
       "type": "project",
       "path": "../../SunamoWpf.Converters/SunamoWpf.Converters/SunamoWpf.Converters.csproj",
       "msbuildProject": "../../SunamoWpf.Converters/SunamoWpf.Converters/SunamoWpf.Converters.csproj"
     },
-    "SunamoWpf.Core/26.2.7.2": {
+    "SunamoWpf.Core/26.6.21.1": {
       "type": "project",
       "path": "../../SunamoWpf.Core/SunamoWpf.Core/SunamoWpf.Core.csproj",
       "msbuildProject": "../../SunamoWpf.Core/SunamoWpf.Core/SunamoWpf.Core.csproj"
@@ -3586,8 +3586,8 @@
   "projectFileDependencyGroups": {
     "net10.0-windows": [
       "Microsoft.Windows.Compatibility >= 10.0.8",
-      "SunamoWpf.Converters >= 26.2.7.2",
-      "SunamoWpf.Core >= 26.2.7.2"
+      "SunamoWpf.Converters >= 26.6.21.1",
+      "SunamoWpf.Core >= 26.6.21.1"
     ]
   },
   "packageFolders": {
@@ -3595,13 +3595,13 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "26.2.7.2",
+    "version": "26.6.21.1",
     "restore": {
-      "projectUniqueName": "E:\\vs\\Projects\\WindowsNuGetPackages\\SunamoWpf.Data\\SunamoWpf.Data\\SunamoWpf.Data.csproj",
+      "projectUniqueName": "E:\\vs\\Projects\\PlatformIndependentNuGetPackages\\SunamoWpf.Data\\SunamoWpf.Data\\SunamoWpf.Data.csproj",
       "projectName": "SunamoWpf.Data",
-      "projectPath": "E:\\vs\\Projects\\WindowsNuGetPackages\\SunamoWpf.Data\\SunamoWpf.Data\\SunamoWpf.Data.csproj",
+      "projectPath": "E:\\vs\\Projects\\PlatformIndependentNuGetPackages\\SunamoWpf.Data\\SunamoWpf.Data\\SunamoWpf.Data.csproj",
       "packagesPath": "C:\\Users\\aktiv\\.nuget\\packages\\",
-      "outputPath": "E:\\vs\\Projects\\WindowsNuGetPackages\\SunamoWpf.Data\\SunamoWpf.Data\\obj\\",
+      "outputPath": "E:\\vs\\Projects\\PlatformIndependentNuGetPackages\\SunamoWpf.Data\\SunamoWpf.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3624,11 +3624,11 @@
           "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
           "projectReferences": {
-            "E:\\vs\\Projects\\WindowsNuGetPackages\\SunamoWpf.Converters\\SunamoWpf.Converters\\SunamoWpf.Converters.csproj": {
-              "projectPath": "E:\\vs\\Projects\\WindowsNuGetPackages\\SunamoWpf.Converters\\SunamoWpf.Converters\\SunamoWpf.Converters.csproj"
+            "E:\\vs\\Projects\\PlatformIndependentNuGetPackages\\SunamoWpf.Converters\\SunamoWpf.Converters\\SunamoWpf.Converters.csproj": {
+              "projectPath": "E:\\vs\\Projects\\PlatformIndependentNuGetPackages\\SunamoWpf.Converters\\SunamoWpf.Converters\\SunamoWpf.Converters.csproj"
             },
-            "E:\\vs\\Projects\\WindowsNuGetPackages\\SunamoWpf.Core\\SunamoWpf.Core\\SunamoWpf.Core.csproj": {
-              "projectPath": "E:\\vs\\Projects\\WindowsNuGetPackages\\SunamoWpf.Core\\SunamoWpf.Core\\SunamoWpf.Core.csproj"
+            "E:\\vs\\Projects\\PlatformIndependentNuGetPackages\\SunamoWpf.Core\\SunamoWpf.Core\\SunamoWpf.Core.csproj": {
+              "projectPath": "E:\\vs\\Projects\\PlatformIndependentNuGetPackages\\SunamoWpf.Core\\SunamoWpf.Core\\SunamoWpf.Core.csproj"
             }
           }
         }
