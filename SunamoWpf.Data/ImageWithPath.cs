@@ -1,5 +1,6 @@
 namespace SunamoWpf;
 
+[System.Runtime.Versioning.SupportedOSPlatform("windows")]
 public class ImageWithPath
 {
     public string path = "";
