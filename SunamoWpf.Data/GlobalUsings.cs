@@ -25,3 +25,5 @@ global using System.Windows.Input;
 global using System.Windows.Media;
 global using System.Windows.Documents;
 global using System.Windows.Media.Imaging;
+global using SunamoWpf.Interfaces;
+global using SunamoWpf.Data.Delegates;
