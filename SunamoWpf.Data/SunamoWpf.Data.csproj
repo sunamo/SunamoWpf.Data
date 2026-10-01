@@ -5,8 +5,8 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <RootNamespace>SunamoWpf</RootNamespace>
     <UseWPF>true</UseWPF>
-    <Description>WPF data structures extracted from SunamoWpf</Description>
-    <Version>26.6.21.1</Version>
+    <Description>Merged into SunamoWpf.Core (flat packages, no cross-package references)</Description>
+    <Version>26.9.30.5</Version>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
     <PackageProjectUrl>https://sunamo.github.io/PlatformIndependentNuGetPackages/SunamoWpf.Data/</PackageProjectUrl>
@@ -24,14 +24,6 @@
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
     <Optimize>false</Optimize>
-    <PackageReleaseNotes>y</PackageReleaseNotes>
-    <NoWarn>CA1416;CS8625;CS8618;CS8603;CS8601</NoWarn>
+    <PackageReleaseNotes>Namespace IUserControlWithSizeChange zustava SunamoWpf.Interfaces</PackageReleaseNotes>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Windows.Compatibility" Version="10.0.8" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\SunamoWpf.Core\SunamoWpf.Core\SunamoWpf.Core.csproj" />
-    <ProjectReference Include="..\..\SunamoWpf.Converters\SunamoWpf.Converters\SunamoWpf.Converters.csproj" />
-  </ItemGroup>
 </Project>
